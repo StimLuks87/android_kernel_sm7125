@@ -38,7 +38,7 @@ echo -e " Kernel Compile Successful"
 git clone --depth=1 https://github.com/StimLuks87/AnyKernel3.git AnyKernel
 cp out/arch/arm64/boot/Image.gz AnyKernel
 cd AnyKernel
-zip -r9 Lineage-RM6785-${TANGGAL}.zip *
+zip -r9 Lineage-SM7125-${TANGGAL}.zip *
 cd ../
 fi
 }
